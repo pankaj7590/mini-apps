@@ -1,0 +1,183 @@
+/*
+Tutorial Title: JQuery Pop-Out Menu
+Description: Popping Out Menu
+Author: Samuel Dalusung
+*/
+
+/*= GENERAL STYLING
+--------------------------------------------------------*/
+@font-face
+{
+	font-family: Museo500-Regular;
+	src: url('../fonts/Museo500-Regular.otf');
+}
+
+
+body {background: #263544; font-family: Museo500-Regular;}
+
+a{ text-decoration: none; }
+h2 {  color: #fff; font-size: 22px;}
+
+
+/*= ICON BOXES
+--------------------------------------------------------*/
+
+ul.icon-menu {margin-top:200px;}
+li.icon-box {width: 120px; height: 120px; list-style: none; left: -47px; position: relative; margin-bottom: 3px;}
+li.icon-box a{width: 120px; height: 120px;}
+li.icon-box.home {background: #e74c3c;}
+li.icon-box.aboutme {background: #1dd0ad;}
+li.icon-box.portfolio {background: #3498db;}
+li.icon-box.blog {background: #f1c40f;}
+li.icon-box.contact {background: #f39c12;}
+.icon-box h2{Museo500-Regular; font-size: 20px; text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);}
+
+.icon-box a {display: block;}
+
+
+
+/*= TITLE BOXES
+--------------------------------------------------------*/
+.icon-box.home h2 { 
+	 z-index: -999;
+	 position: absolute; 
+	 top: 0; 
+	 left: 0; 
+	 opacity: 0; 
+	 background: #E74C3C; 
+	 line-height: 120px; 
+	 width: 120px; 
+	 -webkit-transition: all  .3s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	border-top: 3px solid #a7382d;
+	text-align: center;
+		
+}
+/*
+.icon-box.home a:hover h2 { 
+	opacity: 1; top: -120px; margin: 0;
+	text-align: center;
+	
+}
+*/
+.icon-box.aboutme h2 { 
+	 z-index: -999;
+	 position: absolute; 
+	 top: 0; 
+	 left: 0; 
+	 opacity: 0; 
+	 background: #1dd0ad; 
+	 line-height: 120px; 
+	 width: 120px; 
+	 -webkit-transition: all  .3s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+    border-top: 3px solid #0d866e;
+	text-align: center;
+}
+/*
+.icon-box.aboutme a:hover h2 { 
+	opacity: 1; top: -120px; margin: 0;
+	text-align: center;
+	
+}
+*/
+
+.icon-box.portfolio h2 { 
+	 z-index: -999;
+	 position: absolute; 
+	 top: 0; 
+	 left: 0; 
+	 opacity: 0; 
+	 background: #3498db; 
+	 line-height: 120px; 
+	 width: 120px; 
+	 -webkit-transition: all  .3s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	border-top: 3px solid #2177b1;
+	text-align: center;
+}
+/*
+.icon-box.portfolio a:hover h2 { 
+	opacity: 1; top: -120px; margin: 0;
+	text-align: center;
+	 
+}
+*/
+
+.icon-box.blog h2 { 
+	 z-index: -999;
+	 position: absolute; 
+	 top: 0; 
+	 left: 0; 
+	 opacity: 0; 
+	 background: #f1c40f; 
+	 line-height: 120px; 
+	 width: 120px; 
+	 -webkit-transition: all  .3s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	border-top: 3px solid #b8960e;
+	text-align: center;
+}
+/*
+.icon-box.blog a:hover h2 { 
+	opacity: 1; top: -120px; margin: 0;
+	text-align: center;
+	 
+}
+*/
+.icon-box.contact h2 { 
+	 z-index: -999;
+	 position: absolute; 
+	 top: 0; 
+	 left: 0; 
+	 opacity: 0; 
+	 background: #f39c12; 
+	 line-height: 120px; 
+	 width: 120px; 
+	 -webkit-transition: all  .3s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	border-top: 3px solid #bc780d;
+	text-align: center;
+}
+/*
+.icon-box.contact a:hover h2 { 
+	opacity: 1; top: -120px; margin: 0;
+	text-align: center;
+	 
+}*/
+a.active:hover h2 {
+	opacity: 1; top: -120px; margin: 0;
+	text-align: center;
+}
+
+
+/*= MENU ICONS
+--------------------------------------------------------*/
+
+
+span.icon { display: inline-block; background: url('../img/icon-sprites.png')no-repeat;  width: 32px; height: 32px; margin: 43px 40px;}
+span.icon.home { background-position: 0px 0px;}
+span.icon.aboutme { background-position: -36px 0px;}
+span.icon.portfolio { background-position: -72px 0px;}
+span.icon.blog { background-position: -109px 0px;}
+span.icon.contact { background-position: -145px 0px;}
+
+
+
+
+

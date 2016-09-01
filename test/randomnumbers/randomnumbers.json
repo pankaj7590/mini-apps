@@ -1,0 +1,457 @@
+{
+	"numbers" : [
+		{
+			"number"		: "&radic;2",
+			"value"			: "1.4142",
+			"number_type"		: "Irrational",
+			"real"			: [
+							{
+								"popup_equation"	: "&radic;2",
+								"popup_string"		: "A real number is any number that lies on the number line."
+							}
+						  ],
+			"irrational"		: [
+							{
+								"popup_equation"	: "&radic;2",
+								"popup_string"		: "is an irrational numbers as it cannot be written as a ratio (or fraction) of two integers."
+							}
+						  ]
+		},
+		{
+			"number"		: "&radic;7",
+			"value"			: "2.6457",
+			"number_type"		: "Irrational",
+			"real"			: [
+							{
+								"popup_equation"	: "&radic;7",
+								"popup_string"		: "A real number is any number that lies on the number line."
+							}
+						  ],
+			"irrational"		: [
+							{
+								"popup_equation"	: "&radic;7",
+								"popup_string"		: "is an irrational numbers as it cannot be written as a ratio (or fraction) of two integers."
+							}
+						  ]
+		},
+		{
+			"number"		: "&pi;",
+			"value"			: "3.1415",
+			"number_type"		: "Irrational",
+			"real"			: [
+							{
+								"popup_equation"	: "&pi;",
+								"popup_string"		: "A real number is any number that lies on the number line."
+							}
+						  ],
+			"irrational"		: [
+							{
+								"popup_equation"	: "&pi;",
+								"popup_string"		: "is an irrational numbers as it cannot be written as a ratio (or fraction) of two integers."
+							}
+						  ]
+		},
+		{
+			"number"		: "e",
+			"value"			: "2.7182",
+			"number_type"		: "Irrational",
+			"real"			: [
+							{
+								"popup_equation"	: "e",
+								"popup_string"		: "A real number is any number that lies on the number line."
+							}
+						  ],
+			"irrational"		: [
+							{
+								"popup_equation"	: "e",
+								"popup_string"		: "is an irrational numbers as it cannot be written as a ratio (or fraction) of two integers."
+							}
+						  ]
+		},
+		{
+			"number"		: "<span class=\"sign\"></span><span class=\"numerator\">&pi;</span><span class=\"division\"></span><span class=\"denominator\">2</span>",
+			"value"			: "1.5707",
+			"number_type"		: "Irrational",
+			"real"			: [
+							{
+								"popup_equation"	: "<div class=\"operator\"><span class=\"sign\"></span><span class=\"numerator\">&pi;</span><span class=\"division\"></span><span class=\"denominator\">2</span></div>",
+								"popup_string"		: "A real number is any number that lies on the number line."
+							}
+						  ],
+			"irrational"		: [
+							{
+								"popup_equation"	: "<div class=\"operator\"><span class=\"sign\"></span><span class=\"numerator\">&pi;</span><span class=\"division\"></span><span class=\"denominator\">2</span></div>",
+								"popup_string"		: "is an irrational numbers as it cannot be written as a ratio (or fraction) of two integers."
+							}
+						  ]
+		},
+		{
+			"number"		: "<span class=\"sign\"></span><span class=\"numerator\">4</span><span class=\"division\"></span><span class=\"denominator\">5</span>",
+			"value"			: "0.8",
+			"number_type"		: "non_integer",
+			"real"			: [
+							{
+								"popup_equation"	: "<div class=\"operator\"><span class=\"sign\"></span><span class=\"numerator\">4</span><span class=\"division\"></span><span class=\"denominator\">5</span></div>",
+								"popup_string"		: "A real number is any number that lies on the number line."
+							}
+						  ],
+			"rational"			: [
+							{
+								"popup_equation"	: "<div class=\"operator\"><span class=\"sign\"></span><span class=\"numerator\">4</span><span class=\"division\"></span><span class=\"denominator\">5</span></div>",
+								"popup_string"		: "and is therefore a rational number as it can be written as a fraction."
+							}
+						  ],
+			"non_integer"			: [
+							{
+								"popup_equation"	: "<div class=\"operator\"><span class=\"sign\"></span><span class=\"numerator\">4</span><span class=\"division\"></span><span class=\"denominator\">5</span></div>",
+								"popup_string"		: "is not an integer but 4/5 is a rational number as it can be written as a fraction."
+							}
+						  ]
+		},
+		{
+			"number"		: "<span class=\"sign\">&ndash;</span><span class=\"numerator\">2</span><span class=\"division\"></span><span class=\"denominator\">3</span>",
+			"value"			: "-0.6666",
+			"number_type"		: "non_integer",
+			"real"			: [
+							{
+								"popup_equation"	: "<div class=\"operator\"><span class=\"sign\">&ndash;</span><span class=\"numerator\">2</span><span class=\"division\"></span><span class=\"denominator\">3</span></div>",
+								"popup_string"		: "A real number is any number that lies on the number line."
+							}
+						  ],
+			"rational"			: [
+							{
+								"popup_equation"	: "<div class=\"operator\"><span class=\"sign\">&ndash;</span><span class=\"numerator\">2</span><span class=\"division\"></span><span class=\"denominator\">3</span></div>",
+								"popup_string"		: "and is therefore a rational number as it can be written as a fraction."
+							}
+						  ],
+			"non_integer"			: [
+							{
+								"popup_equation"	: "<div class=\"operator\"><span class=\"sign\">&ndash;</span><span class=\"numerator\">2</span><span class=\"division\"></span><span class=\"denominator\">3</span></div>",
+								"popup_string"		: "is not an integer but &ndash;2/3 is a rational number as it can be written as a fraction."
+							}
+						  ]
+		},
+		{
+			"number"		: "0.01",
+			"value"			: "0.01",
+			"number_type"		: "non_integer",
+			"real"			: [
+							{
+								"popup_equation"	: "0.01",
+								"popup_string"		: "A real number is any number that lies on the number line."
+							}
+						  ],
+			"rational"			: [
+							{
+								"popup_equation"	: "<div class=\"left_side\"><span>0.01</span></div><div class=\"operator\">=</div><div class=\"right_side\"><span class=\"sign\"></span><span class=\"numerator\">1</span><span class=\"division\"></span><span class=\"denominator\">100</span></div>",
+								"popup_string"		: "and is therefore a rational number as it can be written as a fraction."
+							}
+						  ],
+			"non_integer"			: [
+							{
+								"popup_equation"	: "0.01",
+								"popup_string"		: "is not an integer but 0.01 = 1/100 and is therefore a rational number as it can be written as a fraction."
+							}
+						  ]
+		},
+		{
+			"number"		: "1.5",
+			"value"			: "1.5",
+			"number_type"		: "non_integer",
+			"real"			: [
+							{
+								"popup_equation"	: "1.5",
+								"popup_string"		: "A real number is any number that lies on the number line."
+							}
+						  ],
+			"rational"			: [
+							{
+								"popup_equation"	: "<div class=\"left_side\"><span>1.5</span></div><div class=\"operator\">=</div><div class=\"right_side\"><span class=\"sign\"></span><span class=\"numerator\">15</span><span class=\"division\"></span><span class=\"denominator\">10</span></div>",
+								"popup_string"		: "and is therefore a rational number as it can be written as a fraction."
+							}
+						  ],
+			"non_integer"			: [
+							{
+								"popup_equation"	: "1.5",
+								"popup_string"		: "is not an integer but 1.5 = 15/10 and is therefore a rational number as it can be written as a fraction."
+							}
+						  ]
+		},
+		{
+			"number"		: "3.5",
+			"value"			: "3.5",
+			"number_type"		: "non_integer",
+			"real"			: [
+							{
+								"popup_equation"	: "3.5",
+								"popup_string"		: "A real number is any number that lies on the number line."
+							}
+						  ],
+			"rational"			: [
+							{
+								"popup_equation"	: "<div class=\"left_side\"><span>3.5</span></div><div class=\"operator\">=</div><div class=\"right_side\"><span class=\"sign\"></span><span class=\"numerator\">35</span><span class=\"division\"></span><span class=\"denominator\">10</span></div>",
+								"popup_string"		: "and is therefore a rational number as it can be written as a fraction."
+							}
+						  ],
+			"non_integer"			: [
+							{
+								"popup_equation"	: "3.5",
+								"popup_string"		: "is not an integer but 3.5 = 35/10 and is therefore a rational number as it can be written as a fraction."
+							}
+						  ]
+		},
+		{
+			"number"		: "<span class=\"sign\">&ndash;</span><span class=\"numerator\">5</span><span class=\"division\"></span><span class=\"denominator\">2</span>",
+			"value"			: "&ndash; 2.5",
+			"number_type"		: "non_integer",
+			"real"			: [
+							{
+								"popup_equation"	: "<div class=\"operator\"><span class=\"sign\">&ndash;</span><span class=\"numerator\">5</span><span class=\"division\"></span><span class=\"denominator\">2</span></div>",
+								"popup_string"		: "A real number is any number that lies on the number line."
+							}
+						  ],
+			"rational"			: [
+							{
+								"popup_equation"	: "<div class=\"operator\"><span class=\"sign\">&ndash;</span><span class=\"numerator\">5</span><span class=\"division\"></span><span class=\"denominator\">2</span></div>",
+								"popup_string"		: "and is therefore a rational number as it can be written as a fraction."
+							}
+						  ],
+			"non_integer"			: [
+							{
+								"popup_equation"	: "<div class=\"operator\"><span class=\"sign\">&ndash;</span><span class=\"numerator\">5</span><span class=\"division\"></span><span class=\"denominator\">2</span></div>",
+								"popup_string"		: "is not an integer but &ndash;5/2 is a rational number as it can be written as a fraction."
+							}
+						  ]
+		},
+		{
+			"number"		: "0.86",
+			"value"			: "0.86",
+			"number_type"		: "non_integer",
+			"real"			: [
+							{
+								"popup_equation"	: "0.86",
+								"popup_string"		: "A real number is any number that lies on the number line."
+							}
+						  ],
+			"rational"			: [
+							{
+								"popup_equation"	: "<div class=\"left_side\"><span>0.86</span></div><div class=\"operator\">=</div><div class=\"right_side\"><span class=\"sign\"></span><span class=\"numerator\">86</span><span class=\"division\"></span><span class=\"denominator\">100</span></div>",
+								"popup_string"		: "and is therefore a rational number as it can be written as a fraction."
+							}
+						  ],
+			"non_integer"			: [
+							{
+								"popup_equation"	: "0.86",
+								"popup_string"		: "is not an integer but 0.86 = 86/100 and is therefore a rational number as it can be written as a fraction."
+							}
+						  ]
+		},
+		{
+			"number"		: "&ndash; 4",
+			"value"			: "-4",
+			"number_type"		: "Integer",
+			"real"			: [
+							{
+								"popup_equation"	: "&ndash; 4",
+								"popup_string"		: "and is therefore a real."
+							}
+						  ],
+			"rational"		: [
+							{
+								"popup_equation"	: "<div class=\"left_side\"><span>&ndash; 4</span></div><div class=\"operator\">=</div><div class=\"right_side\"><span class=\"sign\">&ndash;</span><span class=\"numerator\">4</span><span class=\"division\"></span><span class=\"denominator\">1</span></div>",
+								"popup_string"		: "and is therefore a rational number as it can be written as a fraction."
+							}
+						  ],
+			"integer"		: [
+							{
+								"popup_equation"	: "&ndash; 4",
+								"popup_string"		: "belongs to the set of  integers{..., &ndash; 5, &ndash; 4, &ndash; 3, &ndash; 2, &ndash; 1, 0, 1, 2, 3, 4, 5...}."
+							}
+						  ]
+		},
+		{
+			"number"		: "&ndash; 3",
+			"value"			: "-3",
+			"number_type"		: "Integer",
+			"real"			: [
+							{
+								"popup_equation"	: "&ndash; 3",
+								"popup_string"		: "and is therefore a real."
+							}
+						  ],
+			"rational"		: [
+							{
+								"popup_equation"	: "<div class=\"left_side\"><span>&ndash; 3</span></div><div class=\"operator\">=</div><div class=\"right_side\"><span class=\"sign\">&ndash;</span><span class=\"numerator\">3</span><span class=\"division\"></span><span class=\"denominator\">1</span></div>",
+								"popup_string"		: "and is therefore a rational number as it can be written as a fraction."
+							}
+						  ],
+			"integer"		: [
+							{
+								"popup_equation"	: "&ndash; 3",
+								"popup_string"		: "belongs to the set of  integers{..., &ndash; 5, &ndash; 4, &ndash; 3, &ndash; 2, &ndash; 1, 0, 1, 2, 3, 4, 5...}."
+							}
+						  ]
+		},
+		{
+			"number"		: "&ndash; 2",
+			"value"			: "-2",
+			"number_type"		: "Integer",
+			"real"			: [
+							{
+								"popup_equation"	: "&ndash; 2",
+								"popup_string"		: "and is therefore a real."
+							}
+						  ],
+			"rational"		: [
+							{
+								"popup_equation"	: "<div class=\"left_side\"><span>&ndash; 2</span></div><div class=\"operator\">=</div><div class=\"right_side\"><span class=\"sign\">&ndash;</span><span class=\"numerator\">2</span><span class=\"division\"></span><span class=\"denominator\">1</span></div>",
+								"popup_string"		: "and is therefore a rational number as it can be written as a fraction."
+							}
+						  ],
+			"integer"		: [
+							{
+								"popup_equation"	: "&ndash; 2",
+								"popup_string"		: "belongs to the set of  integers{..., &ndash; 5, &ndash; 4, &ndash; 3, &ndash; 2, &ndash; 1, 0, 1, 2, 3, 4, 5...}."
+							}
+						  ]
+		},
+		{
+			"number"		: "&ndash; 1",
+			"value"			: "-1",
+			"number_type"		: "Integer",
+			"real"			: [
+							{
+								"popup_equation"	: "&ndash; 1",
+								"popup_string"		: "and is therefore a real."
+							}
+						  ],
+			"rational"		: [
+							{
+								"popup_equation"	: "<div class=\"left_side\"><span>&ndash; 1</span></div><div class=\"operator\">=</div><div class=\"right_side\"><span class=\"sign\">&ndash;</span><span class=\"numerator\">1</span><span class=\"division\"></span><span class=\"denominator\">1</span></div>",
+								"popup_string"		: "and is therefore a rational number as it can be written as a fraction."
+							}
+						  ],
+			"integer"		: [
+							{
+								"popup_equation"	: "&ndash; 1",
+								"popup_string"		: "belongs to the set of  integers{..., &ndash; 5, &ndash; 4, &ndash; 3, &ndash; 2, &ndash; 1, 0, 1, 2, 3, 4, 5...}."
+							}
+						  ]
+		},
+		{
+			"number"		: "0",
+			"value"			: "0",
+			"number_type"		: "Integer",
+			"real"			: [
+							{
+								"popup_equation"	: "0",
+								"popup_string"		: "and is therefore a real."
+							}
+						  ],
+			"rational"		: [
+							{
+								"popup_equation"	: "<div class=\"left_side\"><span>0</span></div><div class=\"operator\">=</div><div class=\"right_side\"><span class=\"sign\"></span><span class=\"numerator\">0</span><span class=\"division\"></span><span class=\"denominator\">1</span></div>",
+								"popup_string"		: "and is therefore a rational number as it can be written as a fraction."
+							}
+						  ],
+			"integer"		: [
+							{
+								"popup_equation"	: "0",
+								"popup_string"		: "belongs to the set of  integers{..., &ndash; 5, &ndash; 4, &ndash; 3, &ndash; 2, & ndash;1, 0, 1, 2, 3, 4, 5...}."
+							}
+						  ]
+		},
+		{
+			"number"		: "1",
+			"value"			: "1",
+			"number_type"		: "Integer",
+			"real"			: [
+							{
+								"popup_equation"	: "1",
+								"popup_string"		: "and is therefore a real."
+							}
+						  ],
+			"rational"		: [
+							{
+								"popup_equation"	: "<div class=\"left_side\"><span>1</span></div><div class=\"operator\">=</div><div class=\"right_side\"><span class=\"sign\"></span><span class=\"numerator\">1</span><span class=\"division\"></span><span class=\"denominator\">1</span></div>",
+								"popup_string"		: "and is therefore a rational number as it can be written as a fraction."
+							}
+						  ],
+			"integer"		: [
+							{
+								"popup_equation"	: "1",
+								"popup_string"		: "belongs to the set of  integers{..., &ndash; 5, &ndash; 4, &ndash; 3, &ndash; 2, &ndash; 1, 0, 1, 2, 3, 4, 5...}."
+							}
+						  ]
+		},
+		{
+			"number"		: "2",
+			"value"			: "2",
+			"number_type"		: "Integer",
+			"real"			: [
+							{
+								"popup_equation"	: "2",
+								"popup_string"		: "and is therefore a real."
+							}
+						  ],
+			"rational"		: [
+							{
+								"popup_equation"	: "<div class=\"left_side\"><span>2</span></div><div class=\"operator\">=</div><div class=\"right_side\"><span class=\"sign\"></span><span class=\"numerator\">2</span><span class=\"division\"></span><span class=\"denominator\">1</span></div>",
+								"popup_string"		: "and is therefore a rational number as it can be written as a fraction."
+							}
+						  ],
+			"integer"		: [
+							{
+								"popup_equation"	: "2",
+								"popup_string"		: "belongs to the set of  integers{..., &ndash; 5, &ndash; 4, &ndash; 3, &ndash; 2, &ndash; 1, 0, 1, 2, 3, 4, 5...}."
+							}
+						  ]
+		},
+		{
+			"number"		: "3",
+			"value"			: "3",
+			"number_type"		: "Integer",
+			"real"			: [
+							{
+								"popup_equation"	: "3",
+								"popup_string"		: "and is therefore a real."
+							}
+						  ],
+			"rational"		: [
+							{
+								"popup_equation"	: "<div class=\"left_side\"><span>3</span></div><div class=\"operator\">=</div><div class=\"right_side\"><span class=\"sign\"></span><span class=\"numerator\">3</span><span class=\"division\"></span><span class=\"denominator\">1</span></div>",
+								"popup_string"		: "and is therefore a rational number as it can be written as a fraction."
+							}
+						  ],
+			"integer"		: [
+							{
+								"popup_equation"	: "3",
+								"popup_string"		: "belongs to the set of  integers{..., &ndash;5, &ndash;4, &ndash;3, &ndash;2, &ndash;1, 0, 1, 2, 3, 4, 5...}."
+							}
+						  ]
+		},
+		{
+			"number"		: "4",
+			"value"			: "4",
+			"number_type"		: "Integer",
+			"real"			: [
+							{
+								"popup_equation"	: "4",
+								"popup_string"		: "and is therefore a real."
+							}
+						  ],
+			"rational"		: [
+							{
+								"popup_equation"	: "<div class=\"left_side\"><span>4</span></div><div class=\"operator\">=</div><div class=\"right_side\"><span class=\"sign\"></span><span class=\"numerator\">4</span><span class=\"division\"></span><span class=\"denominator\">1</span></div>",
+								"popup_string"		: "and is therefore a rational number as it can be written as a fraction."
+							}
+						  ],
+			"integer"		: [
+							{
+								"popup_equation"	: "4",
+								"popup_string"		: "belongs to the set of  integers{..., &ndash; 5, &ndash; 4, &ndash; 3, &ndash; 2, &ndash; 1, 0, 1, 2, 3, 4, 5...}."
+							}
+						  ]
+		}
+	]
+} 

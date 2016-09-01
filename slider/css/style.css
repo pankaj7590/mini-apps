@@ -1,0 +1,31 @@
+.bg{
+    width: 40px!important;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 40px;
+    padding: 20px;
+    top: 10px;
+    position: absolute;
+}
+.container {
+    overflow-y: scroll;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+	position:relative;
+}
+.slide1{
+	left:10px;
+}
+.slide2{
+	left:100px;
+}
+.slide3{
+	left:200px;
+}
+.slide4{
+	left:300px;
+}
+.slide5{
+	left:400px;
+}

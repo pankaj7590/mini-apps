@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	   <meta charset="utf-8">
+       <title>JQuery Slide Out Menu</title>
+      <link href="css/normalize.css" rel="stylesheet">
+      <link href="css/style.css" media="screen" rel="stylesheet">
+ 
+
+	<script type="text/javascript">
+		function active(id){
+			tabs = document.getElementsByClassName('tabs')
+			for(i=0;i<tabs.length;i++){
+				tabs[i].classList.remove('active');
+			}
+		    	document.getElementById(id).classList.add("active");
+		}
+	</script>
+</head> 
+
+
+
+
+<body>
+
+    <div class="container">
+ 
+		  <ul class="icon-menu" style="display:inline-flex">
+				<li class="icon-box home"> 
+				    <a href="#" onmouseover="active(this.id)" id="type" class="tabs">
+				      <h2>Personal</h2>
+				      <h2>Sharing</h2>
+				    </a>
+				</li>	
+				
+				
+				<li class="icon-box aboutme"> 
+				    <a href="#" onmouseover="active(this.id)" id="list" class="tabs">
+				      <h2>List</h2>
+				    </a>
+				</li>
+				
+				
+				<li class="icon-box portfolio"> 
+				     <a href="#" onmouseover="active(this.id)" id="time" class="tabs">
+				         <h2>ASAP</h2>
+				         <h2>Later</h2>
+				     </a>
+				</li>
+				
+				
+			    <li class="icon-box blog"> 
+			         <a href="#" onmouseover="active(this.id)" id="city" class="tabs">
+				          <h2>Inter-city</h2>
+				          <h2>In-city</h2>
+				     </a>
+				</li>
+		  </ul>
+		  
+		
+		  
+ </div>
+ 
+
+ 
+ </div>
+
+</body>
+</html>

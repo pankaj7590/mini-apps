@@ -1,0 +1,39 @@
+body{
+    background-color: #000;
+}
+div.short-target, div.short-trigger{
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    background-color: rgba(214, 213, 213, 0.38);
+    border-radius: 15px;
+    padding-top: 5px;
+    border: 2px solid #FFF;
+}
+div.short-target{
+	display:none;
+	-webkit-transition-property: display 2s; /* Safari */
+    transition-property: display 2s;
+}
+div.short-trigger{
+	top:65px;
+}
+div.short-trigger i{
+	display:none;
+}
+div#menu2 {
+    top: 25px;
+    left: 50px;
+}
+div#menu3 {
+    top: 65px;
+    left: 65px;
+}
+div#menu4 {
+    top: 105px;
+    left: 50px;
+}
+div#menu5 {
+    top: 125px;
+}
