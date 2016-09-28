@@ -1,3 +1,4 @@
+<!--From https://abandon.ie/notebook/simple-file-uploads-using-jquery-ajax-->
 <script src="../js/jquery.min.js"></script>
 <script>
 // Variable to store your files
