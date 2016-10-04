@@ -1,0 +1,18 @@
+i.bulb {
+    color: #cfcfcf;
+}
+i.active{
+	color: #f00;
+}
+.scroll {
+    float: left;
+}
+.clear{
+	clear:both;
+}
+#string{
+	margin-top:20px;
+}
+body{
+	text-align:center;
+}
