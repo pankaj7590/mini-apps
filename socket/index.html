@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Hello World
+		</title>
+		<script src="/socket.io/socket.io.js"></script>
+		<script>
+			//var socket = io();
+			//default event
+			/*socket.on('message', function(data){
+				document.write(data);
+			});*/
+			
+			//custom event
+			/*socket.on('testEvent', function(data){
+				document.write(data);
+				document.write(data.description);
+			});*/
+			
+			/*socket.on('broadcast', function(data){
+				$(document).html(data);
+			});*/
+			
+			/*socket.on('newClientConnect', function(data){
+				document.body.innerHTML = '';
+				document.write(data);
+			});*/
+			//socket.emit('clientEvent', 'This is emitted from client.');
+			
+			var socket = io('/namespace1');
+			
+			socket.on('hi', function(data){
+				document.body.innerHTML = '';
+				document.write(data);
+			});
+		</script>
+	</head>
+	<body>
+		Hello World!
+	</body>
+</html>
