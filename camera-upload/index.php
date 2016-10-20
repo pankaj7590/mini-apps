@@ -7,6 +7,11 @@
 		<script src='../js/bootstrap.min.js'></script>
 		<script>
 			$(document).ready(function(event){
+				$('#myModal').on('hidden.bs.modal', function (event) {
+					context.drawImage(video, 0, 0, 568, 425);
+					video.src="";
+					localstream.getTracks()[0].stop();
+				});
 				$('#myModal').on('shown.bs.modal', function (event) {
 					$('#retake').hide();
 					$('#video').show();
@@ -81,7 +86,7 @@
 		</script>
 	</head>
 	<body>
-		<img src="uploads/sample.png"/><br>
+		<a href="uploads">Uploads</a>
 		<button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#myModal" data-doc-type="id-proof">
 			ID Proof
 		</button>
