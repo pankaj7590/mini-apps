@@ -35,7 +35,6 @@
 			$(gridView).closest('.column-toggle-container').find('.has-column-toggle').find('a[data-column-target]').off('click').on('click', function(){
 				var target = $(this).attr('data-column-target');
 				var isActive = $(this).closest('li').hasClass('active');
-				console.log($('th[data-column="'+target+'"]').index());
 				var targetIndex = $(gridView).find('table tr th[data-column="'+target+'"]').index();
 				if(isActive){
 					$(this).closest('li').removeClass('active');
@@ -50,6 +49,23 @@
 					$(gridView).find('table tbody tr td:nth-child('+(targetIndex+1)+')').show();
 					$(gridView).find('table thead tr td:nth-child('+(targetIndex+1)+')').show();
 					$(gridView).find('table thead tr th[data-column="'+target+'"]').show();
+				}
+			});
+			
+			var initColumns = $(gridView).closest('.column-toggle-container').find('.has-column-toggle').find('a[data-column-target]');
+			$.each(initColumns, function(k, v){
+				var target = $(v).attr('data-column-target');
+				var isActive = $(v).closest('li').hasClass('active');
+				console.log($('th[data-column="'+target+'"]').index());
+				var targetIndex = $(gridView).find('table tr th[data-column="'+target+'"]').index();
+				if(isActive){
+					$(gridView).find('table tbody tr td:nth-child('+(targetIndex+1)+')').show();
+					$(gridView).find('table thead tr td:nth-child('+(targetIndex+1)+')').show();
+					$(gridView).find('table thead tr th[data-column="'+target+'"]').show();
+				}else{
+					$(gridView).find('table tbody tr td:nth-child('+(targetIndex+1)+')').hide();
+					$(gridView).find('table thead tr td:nth-child('+(targetIndex+1)+')').hide();
+					$(gridView).find('table thead tr th[data-column="'+target+'"]').hide();
 				}
 			});
 		});
