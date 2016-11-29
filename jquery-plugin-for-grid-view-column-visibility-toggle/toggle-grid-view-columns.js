@@ -21,16 +21,18 @@
 				}
 			});
 			
-			$(gridView).closest('.column-toggle-container').find('.has-column-toggle:first').append(
-				'<ul class="column-toggle-btn pull-right">'+
-					'<li class="columns-dropdown">'+
-						'<a href="#" class="columns-dropdown-toggle" data-toggle="dropdown">'+
-							'<i class="icon-three-bars"></i>'+
-							'<span class="visible-xs-inline-block position-right">Columns</span>'+
-						'</a>'+
-						'<ul class="columns-dropdown-menu columns-dropdown-content">'+colList+'</ul>'+
-					'</li>'+
-				'</ul>');
+			if($(gridView).closest('.column-toggle-container').find('.has-column-toggle:first').find('.column-toggle-btn').length == 0){
+				$(gridView).closest('.column-toggle-container').find('.has-column-toggle:first').append(
+					'<ul class="column-toggle-btn pull-right">'+
+						'<li class="columns-dropdown">'+
+							'<a href="#" class="columns-dropdown-toggle" data-toggle="dropdown">'+
+								'<i class="icon-three-bars"></i>'+
+								'<span class="visible-xs-inline-block position-right">Columns</span>'+
+							'</a>'+
+							'<ul class="columns-dropdown-menu columns-dropdown-content">'+colList+'</ul>'+
+						'</li>'+
+					'</ul>');
+			}
 				
 			$(gridView).closest('.column-toggle-container').find('.has-column-toggle').find('a[data-column-target]').off('click').on('click', function(){
 				var target = $(this).attr('data-column-target');
