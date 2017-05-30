@@ -7,8 +7,9 @@
 	</head>
 	<body>
 		<?php
+		date_default_timezone_set('Asia/Kolkata');
 		if(isset($_POST['submit'])){
-			$date = isset($_POST['date'])?$_POST['date']:'2016-03-16 16:46:42';
+			$date = isset($_POST['date'])?$_POST['date']:date('Y-m-d H:i:s');
 			echo 'Date : '.$date;
 			echo '</br>Timestamp : '.strtotime($date);
 		}
@@ -20,7 +21,7 @@
 		?>
 		<br>Date to timestamp:<br>
 		<form method="post">
-			Date : <input type="text" name="date"/><input type="submit" name="submit" value="Get Timestamp"/>
+			Date : <input type="text" name="date" placeholder="Y-m-d H:i:s"/><input type="submit" name="submit" value="Get Timestamp"/>
 		</form>
 		Timestamp to date : <br>
 		<form method="post">

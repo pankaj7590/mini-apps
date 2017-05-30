@@ -16,7 +16,6 @@
 	function compress_image($source_url, $destination_url, $quality) {
 
 		$info = getimagesize($source_url);
-
     		if ($info['mime'] == 'image/jpeg')
         			$image = imagecreatefromjpeg($source_url);
 
@@ -26,6 +25,7 @@
    		elseif ($info['mime'] == 'image/png')
         			$image = imagecreatefrompng($source_url);
 
+echo "<pre>";print_r($image);exit;
     		imagejpeg($image, $destination_url, $quality);
 		return $destination_url;
 	}

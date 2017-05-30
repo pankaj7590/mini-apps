@@ -1,0 +1,24 @@
+cordova build --release android
+###################################
+#only if keystore is not generated#
+###################################
+keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
+#################################
+#################################
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore platforms/android/build/outputs/apk/android-release-unsigned.apk rabitt
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore cpa-release-key.keystore platforms/android/build/outputs/apk/android-release-unsigned.apk cpa-rk
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore caas-release-key.keystore platforms/android/build/outputs/apk/android-release-unsigned.apk caas
+/opt/android-sdk/build-tools/23.0.1/zipalign -v 4 platforms/android/build/outputs/apk/android-release-unsigned.apk HelloWorld.apk
+
+/opt/android-sdk/build-tools/23.0.1/zipalign -v 4 platforms/android/build/outputs/apk/android-release-unsigned.apk Rabitt.apk
+
+##################################FOR WINDOWS############################################
+C:\Users\ITVEDANT\AppData\Local\Android\sdk\build-tools\23.0.2\zipalign -v 4 platforms/android/build/outputs/apk/android-release-unsigned.apk Rabitt.apk
+C:\Users\ITVEDANT\AppData\Local\Android\sdk\build-tools\24.0.0\zipalign -v 4 platforms/android/build/outputs/apk/android-release-unsigned.apk CheckPlease.apk
+C:\Android\build-tools\23.0.1\zipalign -v 4 platforms/android/build/outputs/apk/android-release-unsigned.apk CaaS.apk
+C:\Android\build-tools\25.0.2\zipalign -v 4 platforms/android/build/outputs/apk/android-release-unsigned.apk CheckPlease.apk
+#########################################################################################
+
+redhat123@
+/opt/android-sdk/build-tools/23.0.1
+
